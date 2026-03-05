@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package projetoanimal;
 
-/**
- *
- * @author aluno.saolucas
- */
-public class Gato {
+
+public class Gato extends Animal {
+    
+    @Override
+    protected void fazerSom(){
+        System.out.println("O gato mia: MIAU MIAU!");
+    }
     
 }
+
